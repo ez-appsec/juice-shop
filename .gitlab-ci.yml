@@ -5,5 +5,14 @@ include:
     ref: main
     file: 'scan.yml'
 
+stages:
+  - .pre
+  - initialize
+  - build
+  - test
+  - scan
+  - deploy
+  - .post
+
 variables:
   SAST_EXCLUDED_PATHS: "frontend/src/assets/private/**"
