@@ -5,13 +5,5 @@ include:
     ref: main
     file: 'scan.yml'
 
-stages:
-  - .pre
-  - ez-appsec
-  - build
-  - test
-  - deploy
-  - .post
-
 variables:
   SAST_EXCLUDED_PATHS: "frontend/src/assets/private/**"
