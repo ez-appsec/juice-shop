@@ -7,10 +7,9 @@ include:
 
 stages:
   - .pre
-  - initialize
+  - ez-appsec
   - build
   - test
-  - scan
   - deploy
   - .post
 
