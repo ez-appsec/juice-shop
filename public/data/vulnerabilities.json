@@ -2,7 +2,7 @@
   "version": "15.0.0",
   "vulnerabilities": [
     {
-      "id": "6e438e3c-e856-4f4b-9b43-37083f772985",
+      "id": "4853d15d-f3dc-4a7d-8420-18411ff76e99",
       "category": "sast",
       "name": "Semgrep: javascript.jsonwebtoken.security.jwt-hardcode.hardcoded-jwt-secret",
       "message": "A hard-coded credential was detected. It is not recommended to store credentials in source-code, as this risks secrets being leaked and used by either an internal or external malicious adversary. It is recommended to use environment variables to securely provide credentials or retrieve credentials from a secure vault or HSM (Hardware Security Module).",
@@ -32,7 +32,7 @@
       "links": []
     },
     {
-      "id": "93b68857-0d6c-4157-a728-39ed18ed57f9",
+      "id": "b0b98635-9fbc-4a4e-bbcd-3b600aeff08b",
       "category": "sast",
       "name": "Semgrep: javascript.lang.security.audit.unknown-value-with-script-tag.unknown-value-with-script-tag",
       "message": "Cannot determine what 'subs' is and it is used with a '<script>' tag. This could be susceptible to cross-site scripting (XSS). Ensure 'subs' is not externally controlled, or sanitize this data.",
@@ -62,7 +62,7 @@
       "links": []
     },
     {
-      "id": "c8607780-3583-4e0b-8b26-99cb16e5fff5",
+      "id": "c158378f-78a8-456e-a210-c2801993cf07",
       "category": "sast",
       "name": "Semgrep: javascript.express.security.audit.possible-user-input-redirect.unknown-value-in-redirect",
       "message": "It looks like 'toUrl' is read from user input and it is used to as a redirect. Ensure 'toUrl' is not externally controlled, otherwise this is an open redirect.",
@@ -92,7 +92,7 @@
       "links": []
     },
     {
-      "id": "1568e9d1-2141-40ce-8c0f-3bfb792c7c29",
+      "id": "e2db46ef-5c9e-4834-8b70-03785e4b3d15",
       "category": "sast",
       "name": "Semgrep: generic.html-templates.security.unquoted-attribute-var.unquoted-attribute-var",
       "message": "Detected a unquoted template variable as an attribute. If unquoted, a malicious actor could inject custom JavaScript handlers. To fix this, add quotes around the template expression, like this: \"{{ expr }}\".",
@@ -122,7 +122,7 @@
       "links": []
     },
     {
-      "id": "aeaa049d-dd3f-425e-a00c-40fdfe569348",
+      "id": "f9668f56-8fe1-4cfe-b714-9c89e9c07c7f",
       "category": "sast",
       "name": "Semgrep: generic.html-templates.security.unquoted-attribute-var.unquoted-attribute-var",
       "message": "Detected a unquoted template variable as an attribute. If unquoted, a malicious actor could inject custom JavaScript handlers. To fix this, add quotes around the template expression, like this: \"{{ expr }}\".",
@@ -152,7 +152,7 @@
       "links": []
     },
     {
-      "id": "f35412c9-b58c-48fd-807f-6f86f150f08f",
+      "id": "00e0a301-adb9-4644-80f9-8ac65549964b",
       "category": "sast",
       "name": "Semgrep: generic.html-templates.security.unquoted-attribute-var.unquoted-attribute-var",
       "message": "Detected a unquoted template variable as an attribute. If unquoted, a malicious actor could inject custom JavaScript handlers. To fix this, add quotes around the template expression, like this: \"{{ expr }}\".",
@@ -182,7 +182,7 @@
       "links": []
     },
     {
-      "id": "512a748f-a8d6-44fc-94ed-9b290a4b6289",
+      "id": "3316c64e-1eec-4654-97ed-044e4e4a8115",
       "category": "sast",
       "name": "Semgrep: generic.html-templates.security.unquoted-attribute-var.unquoted-attribute-var",
       "message": "Detected a unquoted template variable as an attribute. If unquoted, a malicious actor could inject custom JavaScript handlers. To fix this, add quotes around the template expression, like this: \"{{ expr }}\".",
