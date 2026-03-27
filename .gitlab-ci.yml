@@ -1,6 +1,17 @@
+stages:
+  - .pre
+  - ez-appsec
+  - build
+  - test
+  - deploy
+  - .post
+
 include:
   - template: Dependency-Scanning.gitlab-ci.yml
   - template: SAST.gitlab-ci.yml
+  - project: 'jfelten.work-group/ez_appsec/ez_appsec'
+    ref: main
+    file: 'scan.yml'
 
 variables:
   SAST_EXCLUDED_PATHS: "frontend/src/assets/private/**"
