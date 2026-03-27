@@ -1,3 +1,11 @@
+stages:
+  - .pre
+  - ez-appsec
+  - build
+  - test
+  - deploy
+  - .post
+
 include:
   - template: Dependency-Scanning.gitlab-ci.yml
   - template: SAST.gitlab-ci.yml
