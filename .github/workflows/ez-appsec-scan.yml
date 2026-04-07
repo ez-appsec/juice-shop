@@ -31,7 +31,7 @@ jobs:
       image: ghcr.io/ez-appsec/ez-appsec:latest
       credentials:
         username: ${{ github.actor }}
-        password: ${{ secrets.DASHBOARD_PUSH_TOKEN }}
+        password: ${{ github.token }}
       options: --entrypoint ""
     outputs:
       findings-count: ${{ steps.summary.outputs.findings-count }}
