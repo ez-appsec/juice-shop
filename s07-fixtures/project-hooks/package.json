@@ -1,0 +1,1 @@
+{"name":"m046-hook-fixture","version":"1.0.0","dependencies":{},"scripts":{"preinstall":"echo M046_PROJECT_EXECUTED >&2; exit 91","postinstall":"echo M046_PROJECT_EXECUTED >&2; exit 92"}}
