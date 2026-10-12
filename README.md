@@ -1,1 +1,1 @@
-Isolated M047 scanner acceptance source base. Do not merge this benchmark branch into master.
+M047 multiple-version source candidate. Two application roots select debug 4.3.7 and 4.3.6. Declared inputs and locked versions remain separate evidence. Coverage and matching must be measured by the scanner; no scan result is authored here.
