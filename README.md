@@ -1,1 +1,1 @@
-Isolated M047 scanner acceptance source base. Do not merge this benchmark branch into master.
+M047 clean candidate: real lockfile inputs for scanner measurement. Zero findings and complete matching must be measured, not inferred.
